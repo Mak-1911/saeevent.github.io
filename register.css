@@ -1,0 +1,135 @@
+body{
+    background-image: url('bg.png');
+    background-repeat: none;
+    background-size: cover;
+}
+.container{
+    display: block;
+    background-color: #3e3e3e;
+    width: 80%;
+    height: fit-content;
+    margin-left: 10%;
+    margin-top: 5%;
+    padding-bottom: 4%;
+    border-radius: 15px;
+    color: #fff;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .4);
+    z-index: -1;
+}
+.container h2{
+    margin-left: 15%;
+    padding-top: 3%;
+    transition: 0.3s;
+}
+.container h2:hover{
+    text-shadow: 3px 4px black;
+    font-size: 32px;
+}
+.register{
+    width: 70%;
+    margin-left: 15%;
+    height: fit-content;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 4%;
+    border: 1px solid #696969;
+    padding-bottom: 4%;
+    border-radius: 15px;
+
+}
+.quest{
+    margin-left: 5%;
+}
+.container button{
+    width: fit-content;
+    margin-left: 20%;
+    min-width: 60%;
+    height: auto;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: #3e3e3e;
+    color: #fff;
+    border: 1px solid #696969;
+    font-size: 26px;
+    border-radius: 15px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.quest label{
+    font-size: 26px;
+    width: fit-content;
+    transition: 0.4s;
+}
+
+.screen-header {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background: #4d4d4f;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  .screen-header-left {
+    margin-right: auto;
+  }
+  
+  .screen-header-button {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin-right: 3px;
+    border-radius: 8px;
+    background: white;
+  }
+  
+  .screen-header-button.close {
+    background: red;
+  }
+  
+  .screen-header-button.maximize {
+    background: #e8e925;
+  }
+  
+  .screen-header-button.minimize {
+    background: #74c54f;
+  }
+  
+  .screen-header-right {
+    display: flex;
+  }
+  
+  .screen-header-ellipsis {
+    width: 3px;
+    height: 3px;
+    margin-left: 2px;
+    border-radius: 8px;
+    background: #999;
+  }
+  .quest input {
+    width: 100%;
+    padding: 10px 0;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #666;
+    color: #ddd;
+    font-size: 14px;
+    text-transform: uppercase;
+    outline: none;
+    transition: border-color .2s;
+  }
+  
+  .quest input::placeholder {
+    color: #666;
+  }
+  
+  .quest input:focus {
+    border-bottom-color: #ddd;
+  }
+  .container button:hover{
+      background-color: #fff;
+      color: #3e3e3e;
+  }
+.quest label:hover{
+    font-size: 29px;
+    text-shadow: #696969;
+}
